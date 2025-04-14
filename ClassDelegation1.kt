@@ -26,5 +26,5 @@
 //}
 /**
  * 문제점1: Manager 클래스가 JavaProgrammer에 같혀버려서 PythonProgrammer의 구현을 사용할 수 없다.
- * 문제점2: Manager 클래스로 JavaProgrammer 타입의 변수를 초기화할 수 있는 설계 오류 발생
+ * 문제점2: Manager 클래스로 JavaProgrammer 타입의 변수를 초기화할 수 있는 설계 오류 발생(리스코프 치환 원칙 위반)
  * */
